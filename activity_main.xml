@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ENTER YOUR NAME"
+        android:layout_margin="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="ENTER YOUR AGE"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="ENTER YOUR ADDRESS"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:hint="ENTER YOUR ROLL NO."
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:hint="ENTER YOUR CLASS"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"></Button>
+</LinearLayout>

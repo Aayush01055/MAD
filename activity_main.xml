@@ -48,6 +48,5 @@
         android:layout_below="@+id/txtpassword"
         android:layout_centerInParent="true"
         android:layout_margin="20dp"
-        android:layout_marginBottom="20dp"
         android:text="Login"></Button>
 </RelativeLayout>

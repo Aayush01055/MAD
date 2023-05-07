@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/lbllogin"
-        android:layout_width="match_parent"
+    <CheckBox
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="Login"
-        android:textSize="30dp"></TextView>
+        android:id="@+id/chk1"
+        android:text="Checkbox 1"></CheckBox>
 
-    <EditText
-        android:id="@+id/txtusername"
-        android:layout_width="match_parent"
+    <CheckBox
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/lbllogin"
-        android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
-        android:hint="Username/Email"></EditText>
+        android:id="@+id/chk2"
+        android:text="Checkbox 2"></CheckBox>
 
-
-    <EditText
-        android:id="@+id/txtpassword"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/txtusername"
-        android:layout_width="match_parent"
+    <CheckBox
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="Password"
-        android:layout_centerVertical="true">
-    </EditText>
+        android:id="@+id/chk3"
+        android:text="Checkbox 3"></CheckBox>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chk4"
+        android:text="Checkbox 4"></CheckBox>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chk5"
+        android:text="Checkbox 5"></CheckBox>
 
     <Button
-        android:id="@+id/btnlogin"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtpassword"
-        android:text="Login"
-        android:layout_margin="20dp"></Button>
-</RelativeLayout>
+        android:text="Ok"
+        android:id="@+id/btnok">
+
+    </Button>
+</LinearLayout>
